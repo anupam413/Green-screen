@@ -1,0 +1,37 @@
+body {
+    font-family: helvetica;
+    background-color: goldenrod;
+    margin: 8px dotted black;
+    padding: 6pt solid cornflowerblue;
+    border: 8pt dotted crimson;
+    border-color: rgb(132, 255, 214);
+}
+
+#date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.orangeback {
+    background-color: orange;
+}
+
+.fuchsiaback {
+    background-color: fuchsia;
+}
+
+.blueback {
+    background-color: aqua;
+}
+
+.crimsonback {
+    background-color: blanchedalmond;
+}
+
+canvas {
+    width: 200pt;
+    height: 100pt;
+    margin: 10px;
+    border: 1px dotted aquamarine;
+}

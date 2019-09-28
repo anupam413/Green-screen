@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Task Timeline</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+
+<body>
+    <p id="date">
+
+    </p>
+    <div id="div1" class="orangeback">
+        Welcome to my page
+    </div>
+
+    <div id="div2" class="fuchsiaback">
+        Want to replace me
+    </div>
+    <canvas id="d1" class="orangeback">
+
+    </canvas>
+    <canvas id="d2" class="fuchsiaback">
+
+    </canvas>
+    <p>
+        <input type="button" value="Change colors" onclick="changecolor()">
+
+        <input type="button" value="Change text" onclick="changetext()">
+
+
+        <input type="button" value="Make Lime" onclick="dolime()">
+
+        <input type="button" value="Make Yellow" onclick="doyellow()">
+    </p>
+    <h1>
+        Slider and Colour Picker in second canvas above
+    </h1>
+    <p>
+        <input type="range" min="10" max="100" value="10" id="sldr" oninput="dosquare()">
+
+        <input type="color" value="#001A57" id="clr" onchange="docolor()">
+    </p>
+
+    <p>
+        <input type="text" id="finput">
+        <input type="button" value="Upload" onclick="upload()">
+    </p>
+    <h1>
+        Upload And Display image
+    </h1>
+    <canvas id="can">
+
+    </canvas>
+    <script src="file:///Users/Anupamwagle/Desktop/Codes%20/project-1/SimpleImage.jpeg">
+    </script>
+    <p>
+        <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+    </p>
+    <h1>
+        Convert to grayscale
+
+    </h1>
+    <canvas id="gsac">
+
+    </canvas>
+    <p>
+        <input type="button" value="Convert to grayscale" onclick="makeGray()">
+    </p>
+
+
+    <script src="index2.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
